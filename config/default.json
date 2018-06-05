@@ -1,0 +1,17 @@
+{
+    "taskManager": {
+        "kafka": {
+          "brokersList": ["192.168.0.166:9092"],
+          "consumerGroupId": "tasksClient",
+          "enableAutoCommit": false,
+          "clientId": "test",
+          "topics": ["tasks"],
+          "updateTopic": "update",
+          "msgPerFile": 500,
+          "startTopic": "startTopic"
+          
+        },
+        "componentName": "M1-1",
+        "componentId" : "someUUID123fac"      
+      }
+}
